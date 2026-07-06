@@ -1,0 +1,21 @@
+{
+  "collections": {
+    "leaderboard": {
+      "schema": {
+        "name": "string",
+        "score": "number",
+        "streak": "number",
+        "date": "string",
+        "createdAt": "timestamp"
+      },
+      "indexes": [
+        {
+          "fields": [
+            { "fieldPath": "score", "order": "DESCENDING" },
+            { "fieldPath": "createdAt", "order": "DESCENDING" }
+          ]
+        }
+      ]
+    }
+  }
+}
