@@ -1,0 +1,6 @@
+{
+  "name": "二位小數比大小",
+  "description": "一個互動式的二位小數比大小拖曳排序小遊戲，具備精美紙牌設計、HTML5 拖曳 API、動態小數視覺化格網及慶祝彩帶動畫。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
